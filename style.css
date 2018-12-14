@@ -1,0 +1,194 @@
+body {
+    background-color: black;
+    font-family:'Source Code Pro', monospace; 
+    /*font-family: 'Quicksand', sans-serif;*/
+    color: white;
+    margin: 30px;
+}
+
+#page_content {
+    max-width: 800px ;   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*BEGIN NAVIGATION */
+
+nav {
+    text-align: center;
+    word-spacing: 2em;
+    /*    border: red 1px solid;*/
+}
+
+.nav > li {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Current page link style. */
+.nav > li > a.current_page {
+    color: hotpink ;
+    font-weight: bold;
+}
+
+.nav > li > a:hover {
+    text-decoration: none;
+    color: hotpink;
+}
+
+.logo {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+/*END NAVIGATION*/
+
+
+/*HOME PAGE*/
+
+/*
+.bottom-left {
+position: absolute;
+bottom: 30px;
+left: 50px;
+}
+*/
+
+/*END HOME PAGE*/
+
+
+
+/*PREVIEW PAGE*/
+.image_grid {
+    display: grid;
+    /*    width: 800px;*/
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em ;
+}
+
+.summary {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+/*END PREVIEW PAGE*/
+
+
+
+/*CHARACTER PAGE*/
+
+.characters_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em ;
+
+}
+
+a.right_aligned {
+    text-align: right ;
+}
+
+/*END CHARACTER PAGE*/
+
+
+
+/*AUTHOR PAGE*/
+
+.portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+}   
+.bio {
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*END AUTHOR PAGE*/
+
+
+
+/*BEGIN FOOTER*/
+
+footer {
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    word-spacing: 1em;
+}
+
+.footer > li {
+    display: inline-block;
+    font-size: 13px;
+    font-size: 11px;
+}
+
+.footer > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+/*END FOOTER*/
+
+
+
+/*HEADERS*/
+
+h1 {
+    font-size: 45px;
+    font-family:'Source Code Pro', monospace; 
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+#home_image {
+    width: 100% ;
+}
+
+/*font-family: 'Quicksand', sans-serif;*/
+/*font-family: 'Fugaz One', cursive;*/
+
+/*END HEADERS*/
+
+
+p,div, h1,h2,h2,h3,h4,h5,section,nav {
+    /*    border: 1px solid red ;*/
+}
